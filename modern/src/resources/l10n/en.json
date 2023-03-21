@@ -562,5 +562,11 @@
     "categoryVan": "Van",
     "categoryScooter": "Scooter",
     "maintenanceStart": "Start",
-    "maintenancePeriod": "Period"
+    "maintenancePeriod": "Period",
+    "positionHours2": "Engine Hours 2",
+    "positionIdleTime": "Idle Time",
+    "positionEngine1": "Status Engine 1",
+    "positionEngine2": "Status Engine 2",
+    "reportEngineHours2": "Engine Hours 2",
+    "reportIdleTime": "Idle Time"
 }

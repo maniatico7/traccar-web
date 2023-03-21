@@ -140,6 +140,24 @@ export default (t) => useMemo(() => ({
     type: 'number',
     dataType: 'hours',
   },
+  hours2: {
+    name: t('positionHours2'),
+    type: 'number',
+    dataType: 'hours',
+  },
+  idleTime: {
+    name: t('positionIdleTime'),
+    type: 'number',
+    dataType: 'hours',
+  },
+  engine1: {
+    name: t('positionEngine1:'),
+    type: 'boolean',
+  },
+  engine2: {
+    name: t('positionEngine2:'),
+    type: 'boolean',
+  },
   steps: {
     name: t('positionSteps'),
     type: 'number',

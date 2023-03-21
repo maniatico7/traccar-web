@@ -27,6 +27,8 @@ const columnsArray = [
   ['averageSpeed', 'reportAverageSpeed'],
   ['maxSpeed', 'reportMaximumSpeed'],
   ['engineHours', 'reportEngineHours'],
+  ['engineHours2', 'reportEngineHours2'],
+  ['idleTime', 'reportIdleTime'],
   ['spentFuel', 'reportSpentFuel'],
 ];
 const columnsMap = new Map(columnsArray);
@@ -101,6 +103,10 @@ const SummaryReportPage = () => {
       case 'maxSpeed':
         return formatSpeed(item[key], speedUnit, t);
       case 'engineHours':
+        return formatHours(item[key]);
+      case 'engineHours2':
+        return formatHours(item[key]);
+      case 'idleTime':
         return formatHours(item[key]);
       case 'spentFuel':
         return formatVolume(item[key], volumeUnit, t);

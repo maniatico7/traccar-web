@@ -52,6 +52,10 @@ const PositionValue = ({ position, property, attribute }) => {
         return formatDistance(value, distanceUnit, t);
       case 'hours':
         return formatNumericHours(value, t);
+      case 'hours2':
+        return formatNumericHours(value, t);
+      case 'idleTime':
+        return formatNumericHours(value, t);
       default:
         if (typeof value === 'number') {
           return formatNumber(value);
@@ -69,6 +73,22 @@ const PositionValue = ({ position, property, attribute }) => {
       return (<Link href={`/api/media/${device.uniqueId}/${value}`} target="_blank">{value}</Link>);
     case 'totalDistance':
     case 'hours':
+      return (
+        <>
+          {formatValue(value)}
+          &nbsp;&nbsp;
+          {admin && (<Link component={RouterLink} underline="none" to={`/settings/accumulators/${position.deviceId}`}>&#9881;</Link>)}
+        </>
+      );
+    case 'hours2':
+      return (
+        <>
+          {formatValue(value)}
+          &nbsp;&nbsp;
+          {admin && (<Link component={RouterLink} underline="none" to={`/settings/accumulators/${position.deviceId}`}>&#9881;</Link>)}
+        </>
+      );
+    case 'idleTime':
       return (
         <>
           {formatValue(value)}

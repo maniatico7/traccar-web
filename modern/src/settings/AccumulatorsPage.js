@@ -57,6 +57,8 @@ const AccumulatorsPage = () => {
       setItem({
         deviceId: parseInt(deviceId, 10),
         hours: position.attributes.hours || 0,
+        hours2: position.attributes.hours2 || 0,
+        idleTime: position.attributes.idleTime || 0,
         totalDistance: position.attributes.totalDistance || 0,
       });
     }
@@ -92,6 +94,18 @@ const AccumulatorsPage = () => {
                 value={item.hours / 3600000}
                 onChange={(event) => setItem({ ...item, hours: Number(event.target.value) * 3600000 })}
                 label={t('positionHours')}
+              />
+              <TextField
+                type="number"
+                value={item.hours2 / 3600000}
+                onChange={(event) => setItem({ ...item, hours2: Number(event.target.value) * 3600000 })}
+                label={t('positionHours2')}
+              />
+              <TextField
+                type="number"
+                value={item.idleTime / 3600000}
+                onChange={(event) => setItem({ ...item, idleTime: Number(event.target.value) * 3600000 })}
+                label={t('positionIdleTime')}
               />
               <TextField
                 type="number"

@@ -263,7 +263,7 @@
     "positionOdometer": "Kilometerzähler",
     "positionServiceOdometer": "Kilometerzähler - Service",
     "positionTripOdometer": "Kilometerzähler - Trip",
-    "positionHours": "Stunden",
+    "positionHours": "Betriebsstunden",
     "positionSteps": "Schritte",
     "positionInput": "Input",
     "positionOutput": "Output",
@@ -561,5 +561,11 @@
     "categoryVan": "Van",
     "categoryScooter": "Roller",
     "maintenanceStart": "Start",
-    "maintenancePeriod": "Periode"
+    "maintenancePeriod": "Periode",
+    "positionHours2": "Betriebsstunden 2",
+    "positionIdleTime": "Standzeit mit Motor",
+    "positionEngine1": "Status Motor 1",
+    "positionEngine2": "Status Motor 2",
+    "reportEngineHours2": "Betriebsstunden 2",
+    "reportIdleTime": "Standzeit mit Motor"
 }
