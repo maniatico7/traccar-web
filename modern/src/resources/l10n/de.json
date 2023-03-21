@@ -567,5 +567,22 @@
     "positionEngine1": "Status Motor 1",
     "positionEngine2": "Status Motor 2",
     "reportEngineHours2": "Betriebsstunden 2",
-    "reportIdleTime": "Standzeit mit Motor"
+    "reportIdleTime": "Standzeit mit Motor",
+    "attributeLServiceWeight": "Dienstmasse",
+    "attributeLWheelArrangement": "Achsfolge",
+    "attributeLYearConstruction": "Baujahr",
+    "attributeLNVRNumber": "NVR-Nummer",
+    "attributeLSerialNumber": "Fabriknummer",
+    "attributeLFuelTank": "Kraftstofftank",
+    "attributeLMaxSpeed": "Höchstgeschwindigkeit",
+    "attributeLLengthBuffer": "Länge über Puffer",
+    "attributeLWheelDiameterMax": "Max. Raddurchmesser",
+    "attributeLWheelDiameterMin": "Min. Raddurchmesser",
+    "attributeLTrackCurve": "Kleinster befahrbarer Gleisbogen",
+    "attributeLCountryApproval": "Länderzulassung",
+    "attributeLTypeDrive": "Antriebsart",
+    "attributeLDrivePower": "Antriebsleistung",
+    "attributeLTractiveForce": "Zugkraft",
+    "attributeLLineCategories": "Streckenklasse",
+    "sharedShowMasterData": "Stammdaten"
 }

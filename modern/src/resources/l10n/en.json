@@ -568,5 +568,22 @@
     "positionEngine1": "Status Engine 1",
     "positionEngine2": "Status Engine 2",
     "reportEngineHours2": "Engine Hours 2",
-    "reportIdleTime": "Idle Time"
+    "reportIdleTime": "Idle Time",
+    "attributeLServiceWeight": "Service Weight",
+    "attributeLWheelArrangement": "Wheel Arrangement",
+    "attributeLYearConstruction": "Year of Construction",
+    "attributeLNVRNumber": "NVR-Number",
+    "attributeLSerialNumber": "Serial Number",
+    "attributeLFuelTank": "Fuel Tank",
+    "attributeLMaxSpeed": "Top Speed",
+    "attributeLLengthBuffer": "Length over Buffers",
+    "attributeLWheelDiameterMax": "Max. Wheel Diameter",
+    "attributeLWheelDiameterMin": "Min. Wheel Diameter",
+    "attributeLTrackCurve": "Minimum Track Curve",
+    "attributeLCountryApproval": "Country Approval",
+    "attributeLTypeDrive": "Type of Drive",
+    "attributeLDrivePower": "Drive Power",
+    "attributeLTractiveForce": "Tractive Force",
+    "attributeLLineCategories": "Line Categories",
+    "sharedShowMasterData": "Locomotive Master Data"
 }
