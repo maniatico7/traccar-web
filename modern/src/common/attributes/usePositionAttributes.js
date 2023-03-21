@@ -300,6 +300,18 @@ export default (t) => useMemo(() => ({
     name: t('positionAcceleration'),
     type: 'number',
   },
+  accelX: {
+    name: t('positionAccelerationX'),
+    type: 'number',
+  },
+  accelY: {
+    name: t('positionAccelerationY'),
+    type: 'number',
+  },
+  accelZ: {
+    name: t('positionAccelerationZ'),
+    type: 'number',
+  },
   deviceTemp: {
     name: t('positionDeviceTemp'),
     type: 'number',

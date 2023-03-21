@@ -584,5 +584,8 @@
     "attributeLDrivePower": "Antriebsleistung",
     "attributeLTractiveForce": "Zugkraft",
     "attributeLLineCategories": "Streckenklasse",
-    "sharedShowMasterData": "Stammdaten"
+    "sharedShowMasterData": "Stammdaten",
+    "positionAccelerationX": "Beschleunigung X-Achse",
+    "positionAccelerationY": "Beschleunigung Y-Achse",
+    "positionAccelerationZ": "Beschleunigung Z-Achse"
 }

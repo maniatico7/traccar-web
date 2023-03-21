@@ -585,5 +585,8 @@
     "attributeLDrivePower": "Drive Power",
     "attributeLTractiveForce": "Tractive Force",
     "attributeLLineCategories": "Line Categories",
-    "sharedShowMasterData": "Locomotive Master Data"
+    "sharedShowMasterData": "Locomotive Master Data",
+    "positionAccelerationX": "Acceleration X-Axis",
+    "positionAccelerationY": "Acceleration Y-Axis",
+    "positionAccelerationZ": "Acceleration Z-Axis"
 }
