@@ -7,13 +7,13 @@ import {
 } from '../util/formatter';
 import { useAttributePreference, usePreference } from '../util/preferences';
 import { useTranslation } from './LocalizationProvider';
-import { useAdministrator } from '../util/permissions';
+import { useManager } from '../util/permissions';
 import AddressValue from './AddressValue';
 
 const PositionValue = ({ position, property, attribute }) => {
   const t = useTranslation();
 
-  const admin = useAdministrator();
+  const manager = useManager();
 
   const device = useSelector((state) => state.devices.items[position.deviceId]);
 
@@ -80,7 +80,7 @@ const PositionValue = ({ position, property, attribute }) => {
         <>
           {formatValue(value)}
           &nbsp;&nbsp;
-          {admin && (<Link component={RouterLink} underline="none" to={`/settings/accumulators/${position.deviceId}`}>&#9881;</Link>)}
+          {manager && (<Link component={RouterLink} underline="none" to={`/settings/accumulators/${position.deviceId}`}>&#9881;</Link>)}
         </>
       );
     case 'hours2':
@@ -88,7 +88,7 @@ const PositionValue = ({ position, property, attribute }) => {
         <>
           {formatValue(value)}
           &nbsp;&nbsp;
-          {admin && (<Link component={RouterLink} underline="none" to={`/settings/accumulators/${position.deviceId}`}>&#9881;</Link>)}
+          {manager && (<Link component={RouterLink} underline="none" to={`/settings/accumulators/${position.deviceId}`}>&#9881;</Link>)}
         </>
       );
     case 'idleTime':
@@ -96,7 +96,7 @@ const PositionValue = ({ position, property, attribute }) => {
         <>
           {formatValue(value)}
           &nbsp;&nbsp;
-          {admin && (<Link component={RouterLink} underline="none" to={`/settings/accumulators/${position.deviceId}`}>&#9881;</Link>)}
+          {manager && (<Link component={RouterLink} underline="none" to={`/settings/accumulators/${position.deviceId}`}>&#9881;</Link>)}
         </>
       );
     case 'address':
