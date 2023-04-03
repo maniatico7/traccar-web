@@ -587,5 +587,7 @@
     "sharedShowMasterData": "Stammdaten",
     "positionAccelerationX": "Beschleunigung X-Achse",
     "positionAccelerationY": "Beschleunigung Y-Achse",
-    "positionAccelerationZ": "Beschleunigung Z-Achse"
+    "positionAccelerationZ": "Beschleunigung Z-Achse",
+    "deviceTotalStandbyDistance": "Kilometerzähler aufgerüstet",
+    "positionStandbyDistance": "Distanz aufgerüstet"
 }

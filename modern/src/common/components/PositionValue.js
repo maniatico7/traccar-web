@@ -50,6 +50,8 @@ const PositionValue = ({ position, property, attribute }) => {
       case 'distance':
       case 'totalDistance':
         return formatDistance(value, distanceUnit, t);
+      case 'totalStandbyDistance':
+        return formatDistance(value, distanceUnit, t);
       case 'hours':
         return formatNumericHours(value, t);
       case 'hours2':
@@ -72,6 +74,7 @@ const PositionValue = ({ position, property, attribute }) => {
     case 'audio':
       return (<Link href={`/api/media/${device.uniqueId}/${value}`} target="_blank">{value}</Link>);
     case 'totalDistance':
+    case 'totalStandbyDistance':
     case 'hours':
       return (
         <>

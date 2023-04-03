@@ -263,11 +263,22 @@ export default (t) => useMemo(() => ({
     type: 'number',
     dataType: 'distance',
   },
+  standbyDistance: {
+    name: t('positionStandbyDistance'),
+    type: 'number',
+    dataType: 'distance',
+  },
   totalDistance: {
     name: t('deviceTotalDistance'),
     type: 'number',
     dataType: 'distance',
   },
+  totalStandbyDistance: {
+    name: t('deviceTotalStandbyDistance'),
+    type: 'number',
+    dataType: 'distance',
+  },
+
   rpm: {
     name: t('positionRpm'),
     type: 'number',

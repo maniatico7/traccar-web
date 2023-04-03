@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e44e5116-9f2e-47c3-bba2-722b0fea9117" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/other/MasterDataPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/attributes/useDeviceAttributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/attributes/useDeviceAttributes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/StatusCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/StatusCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/l10n/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/l10n/de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/l10n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/l10n/en.json" afterDir="false" />
-    </list>
+    <list default="true" id="e44e5116-9f2e-47c3-bba2-722b0fea9117" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,18 +21,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/marco/Documents/Traccar/traccar-web/modern/src/other",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/marco/Documents/Traccar/traccar-web/modern/src/other&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/other" />
@@ -51,6 +49,9 @@
       <option name="presentableId" value="Default" />
       <updated>1679411014431</updated>
       <workItem from="1679411015627" duration="3865000" />
+      <workItem from="1679415198673" duration="2636000" />
+      <workItem from="1680525728776" duration="1558000" />
+      <workItem from="1680533881621" duration="52000" />
     </task>
     <servers />
   </component>

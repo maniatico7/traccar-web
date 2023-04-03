@@ -60,6 +60,7 @@ const AccumulatorsPage = () => {
         hours2: position.attributes.hours2 || 0,
         idleTime: position.attributes.idleTime || 0,
         totalDistance: position.attributes.totalDistance || 0,
+        totalStandbyDistance: position.attributes.totalStandbyDistance || 0,
       });
     }
   }, [deviceId, position]);
@@ -112,6 +113,12 @@ const AccumulatorsPage = () => {
                 value={distanceFromMeters(item.totalDistance, distanceUnit)}
                 onChange={(event) => setItem({ ...item, totalDistance: distanceToMeters(Number(event.target.value), distanceUnit) })}
                 label={`${t('deviceTotalDistance')} (${distanceUnitString(distanceUnit, t)})`}
+              />
+              <TextField
+                type="number"
+                value={distanceFromMeters(item.totalStandbyDistance, distanceUnit)}
+                onChange={(event) => setItem({ ...item, totalStandbyDistance: distanceToMeters(Number(event.target.value), distanceUnit) })}
+                label={`${t('deviceTotalStandbyDistance')} (${distanceUnitString(distanceUnit, t)})`}
               />
             </AccordionDetails>
           </Accordion>

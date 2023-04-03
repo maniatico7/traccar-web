@@ -588,5 +588,7 @@
     "sharedShowMasterData": "Locomotive Master Data",
     "positionAccelerationX": "Acceleration X-Axis",
     "positionAccelerationY": "Acceleration Y-Axis",
-    "positionAccelerationZ": "Acceleration Z-Axis"
+    "positionAccelerationZ": "Acceleration Z-Axis",
+    "deviceTotalStandbyDistance": "Total Standby Distance",
+    "positionStandbyDistance": "Standby Distance"
 }
