@@ -12,7 +12,7 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { useTranslation, useTranslationKeys } from '../common/components/LocalizationProvider';
 import PageLayout from '../common/components/PageLayout';
 import SettingsMenu from './components/SettingsMenu';
-import usePositionAttributes from '../common/attributes/usePositionAttributes';
+import usePositionAttributes from '../common/attributes/usePositionAttributesPopup';
 import { prefixString, unprefixString } from '../common/util/stringUtils';
 import SelectField from '../common/components/SelectField';
 import useMapStyles from '../map/core/useMapStyles';

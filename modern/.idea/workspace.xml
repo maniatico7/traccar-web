@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e44e5116-9f2e-47c3-bba2-722b0fea9117" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/common/attributes/usePositionAttributesPopup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/l10n/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/l10n/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/PreferencesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings/PreferencesPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +31,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/marco/Documents/Traccar/traccar-web/modern/src/other&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/marco/Documents/Traccar/traccar-web/modern/src/common/attributes&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -39,6 +42,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common/attributes" />
       <recent name="$PROJECT_DIR$/src/other" />
     </key>
   </component>
@@ -56,6 +60,11 @@
       <workItem from="1680533881621" duration="52000" />
       <workItem from="1680534305465" duration="2776000" />
       <workItem from="1680619242631" duration="401000" />
+      <workItem from="1681370717520" duration="6055000" />
+      <workItem from="1681391224893" duration="1879000" />
+      <workItem from="1681393305294" duration="601000" />
+      <workItem from="1682673856595" duration="3670000" />
+      <workItem from="1683020427007" duration="325000" />
     </task>
     <servers />
   </component>
